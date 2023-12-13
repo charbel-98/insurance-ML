@@ -1,0 +1,68 @@
+Naim Abdeljawad, Charbel Saliba
+
+
+
+Research Question:
+
+How can machine learning algorithms, specifically Random Forest, K-Nearest Neighbors (KNN), and Gradient Boosting Regressor, be employed to predict car insurance premiums based on features such as sum insured, car model, and car body type
+
+Hypotheses:
+
+The sum insured will have a direct and positive correlation with the car insurance premium.
+Different car models and body types will exhibit varying impacts on insurance premiums.
+The combined use of Random Forest, KNN, and Gradient Boosting Regressor will provide a more accurate prediction compared to using any single algorithm.
+
+Data:
+
+Source: The data for this project is sourced from car insurance records.
+Size: The dataset is approximately 800 KB.
+Features:
+ 	'POLICY_NO', 'CUST_ID', 'EXECUTIVE.x', 'BODY', 'MAKE.x',
+       'MODEL.x', 'USE_OF_VEHICLE', 'MODEL_YEAR', 'CHASSIS_NO', 'POL_EFF_DATE',
+       'POL_EXPIRY_DATE', 'SUM.INSURED.x', 'POL_ISSUE_DATE', 'PREMIUM2',
+       'DRV_DOB', 'DRV_DLI', 'VEH_SEATS', 'POLICYTYPE.x', 'NB', 'Account.Code',
+       'DATE.OF..INTIMATION', 'DATE.OF..ACCIDENT', 'PLACE.OF..LOSS',
+       'CLAIM.NO', 'AGE', 'TYPE', 'DRIVING..LICENSE.ISSUE', 'LICENSE_AGE',
+       'BODY.TYPE', 'YEAR', 'REG', 'POLICY.START', 'POLICY.END',
+       'INTIMATED.AMOUNT', 'INTIMATED.SF', 'PRODUCT.y', 'NATIONALITY.y'
+       
+
+
+Machine Learning Techniques:
+
+Random Forest: Utilized for its ability to handle complex relationships, feature importance analysis, and resistance to overfitting.
+K-Nearest Neighbors (KNN): Applied for its simplicity and effectiveness in capturing local patterns in data.
+Gradient Boosting Regressor: Chosen for its capacity to boost predictive performance by combining the strengths of multiple weak learners.
+Project Steps:
+
+Data Collection:
+
+Collected car insurance data with a focus on diverse information, including sum insured, car model, and car body type.
+Ensured the dataset is representative of various insurance scenarios.
+Cleaned and preprocessed the data, addressing any missing values or outliers.
+Model Creation:
+
+Implemented Random Forest, KNN, and Gradient Boosting Regressor models for premium prediction.
+Conducted feature engineering to enhance the model's predictive capabilities.
+Split the data into training and testing sets.
+Trained the models using the training set.
+Evaluation and Iteration:
+
+Evaluated the models' performance using metrics such as Mean Absolute Error (MAE) and R-squared.
+Iteratively fine-tuned the models and explored additional algorithms if desired accuracy is not achieved.
+Report:
+
+Documented the data collection process, challenges faced, and preprocessing steps.
+Described the features engineered to improve model performance.
+Presented the results of model training, evaluation, and any iterations made.
+Presentation:
+
+Discussed the machine learning techniques employed and their suitability for the regression task.
+
+Introduced each algorithm (Random Forest, KNN, Gradient Boosting) and explained their roles in the prediction process.
+Shared insights gained from comparing and combining multiple algorithms.
+Discussed the potential impact of the project on optimizing premium pricing in the car insurance industry.
+
+Self-learning Outcome:
+
+Through this project, I aim to deepen my understanding of regression models and ensemble learning techniques. I anticipate gaining insights into the strengths and limitations of each algorithm and the practical considerations in deploying machine learning for real-world applications in the insurance domain. This project will contribute to my proficiency in selecting and fine-tuning algorithms to achieve desired predictive accuracy.
